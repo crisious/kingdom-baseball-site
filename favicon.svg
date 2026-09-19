@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#111827"/>
+  <circle cx="32" cy="32" r="23" fill="#202a43" stroke="#e5b83a" stroke-width="3"/>
+  <path d="M18 18c6 4 9 9 10 15M46 18c-6 4-9 9-10 15M18 46c6-4 9-9 10-15M46 46c-6-4-9-9-10-15" fill="none" stroke="#a33b32" stroke-linecap="round" stroke-width="2"/>
+  <text x="32" y="43" fill="#f7ebca" font-family="serif" font-size="31" font-weight="700" text-anchor="middle">九</text>
+</svg>

@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "backgrounds": "1448x1086",
+  "compression": "WebP quality 85",
+  "concept": "modern academy (2026-09-18)",
+  "files": [
+    {
+      "path": "tier0_park.webp",
+      "bytes": 146378,
+      "sha256": "6718c5e42f6eb332521ec990fef655185e58bd6860effb9f381f65dcfe56fe25"
+    },
+    {
+      "path": "tier1_metro.webp",
+      "bytes": 138200,
+      "sha256": "97fc5ee7eee0bc025f43a71b9a3e6114f1f7c4fa146276c264c1ade003c49415"
+    },
+    {
+      "path": "tier2_dome.webp",
+      "bytes": 137634,
+      "sha256": "64994b4cb8a8a6d290cbfc320ae5df731891bbf72180b7c1a4a1da3962987542"
+    },
+    {
+      "path": "facilities/drillyard.svg",
+      "bytes": 974,
+      "sha256": "3133afbef16b1d9b6809e8ce3e2b286551114861ab75f7c68a50ae75ee1f6972"
+    },
+    {
+      "path": "facilities/market.svg",
+      "bytes": 950,
+      "sha256": "29482cbd52084982cd963553a54bb1ddfd251cb6b75eec614393624a64b7be66"
+    },
+    {
+      "path": "facilities/stable.svg",
+      "bytes": 965,
+      "sha256": "acfbe825be495ff97155c0c052475b6058d7a2f98b36d8cc1faa19e4dfb026b0"
+    },
+    {
+      "path": "facilities/tavern.svg",
+      "bytes": 882,
+      "sha256": "9bc4f7b74468506f25f52f6a69fe850d1822eb7a0bcd496aeae610fedd9c1eda"
+    },
+    {
+      "path": "sponsors/iron_works.svg",
+      "bytes": 597,
+      "sha256": "af3ef26a427343bc4078796ae279662031ff4c9a391ddaf9920b542ede14ac39"
+    },
+    {
+      "path": "sponsors/salt_bureau.svg",
+      "bytes": 515,
+      "sha256": "3a9034678f1763dd83bc1e5039ff731c6423ce331687d1a825be4e77f93ded5d"
+    },
+    {
+      "path": "sponsors/silk_guild.svg",
+      "bytes": 573,
+      "sha256": "74204c12e04c17fc3b09b512fdcb5b736a2236ee3b34c418f5efbb2bd4d16647"
+    }
+  ]
+}
