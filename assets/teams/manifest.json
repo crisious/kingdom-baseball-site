@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "concept": "season team emblems — original round badges generated locally with Qwen-Image 2.1 (2026-10-02)",
+  "size": "256x256",
+  "compression": "WebP quality 90 (lossy colour, lossless alpha)",
+  "model": {
+    "unet": "qwen_image_2.1_int8_convrot.safetensors",
+    "clip": "qwen3vl_8b_int8_convrot.safetensors",
+    "vae": "qwen_image_2.1_vae_bf16.safetensors"
+  },
+  "sampling": {
+    "sampler": "euler",
+    "scheduler": "simple",
+    "steps": 25,
+    "cfg": 1
+  },
+  "latent": 1024,
+  "files": [
+    {
+      "path": "player-club.webp",
+      "teamId": "player-club",
+      "bytes": 13486,
+      "sha256": "3cb0ad2d020c6059c19a8954403e0f9f498313fc96d74c66338744a8bfc08d19",
+      "seed": 2002,
+      "promptSha256": "a36dff4c180a19dc887de18f38d7b55d83be6ae5db8639f16813e12d68479371",
+      "sourceSha256": "bd5d005f074106cdf54abe81dc739ef78269d374b8e5e74360d64bfd88171a64",
+      "fit": {
+        "rms": 1.91,
+        "max": 4.3,
+        "reach": 487,
+        "coverage": 0.982
+      }
+    },
+    {
+      "path": "npc-wei-tigers.webp",
+      "teamId": "npc-wei-tigers",
+      "bytes": 22582,
+      "sha256": "e23dee0e0f2389f4c8de7136038a961ce98bc9f083c601d4ee04e548a010402f",
+      "seed": 2001,
+      "promptSha256": "9d1137b40e59c399b13c7fce30895c0500dbd35f7ec680ed327114f4788c1e68",
+      "sourceSha256": "9d5ed10532ce117a775ac12051601371e1905d9c68abf46790ac698a8bd62479",
+      "fit": {
+        "rms": 1.72,
+        "max": 3.61,
+        "reach": 437.9,
+        "coverage": 0.983
+      }
+    },
+    {
+      "path": "npc-shu-dragons.webp",
+      "teamId": "npc-shu-dragons",
+      "bytes": 15242,
+      "sha256": "d5b0b440c6b8508b8fec7d149d21d894c217d30b2ab66a4524c0ae6b5154fe0e",
+      "seed": 2002,
+      "promptSha256": "536eb1b3c5a47f666e7b5cf857109ac546d6ccd7e279e5f1a5fdae0bbfeade28",
+      "sourceSha256": "03c06db66573505265d7f4367bb3b329e5584aefa9bea22157eb827d33e900c2",
+      "fit": {
+        "rms": 3,
+        "max": 5.42,
+        "reach": 481.7,
+        "coverage": 0.977
+      }
+    },
+    {
+      "path": "npc-wu-marines.webp",
+      "teamId": "npc-wu-marines",
+      "bytes": 14992,
+      "sha256": "67e80fae71f8c5c4db2697e43251b61ca719a52d2c4f47d44a061c39bd94d2a3",
+      "seed": 2002,
+      "promptSha256": "3e7bfc280db56317e44b58f4139cd232be2dd756ec1af743f3983c7e8cbb9046",
+      "sourceSha256": "36a2b18cce669e09987309b3eb70fb27512e9e8ddb4ef193cd49287bfa295224",
+      "fit": {
+        "rms": 2.19,
+        "max": 4.71,
+        "reach": 476.1,
+        "coverage": 0.98
+      }
+    },
+    {
+      "path": "npc-qun-riders.webp",
+      "teamId": "npc-qun-riders",
+      "bytes": 17396,
+      "sha256": "9a866f280aa4789afcc07c07e71cb92a1a9329604e3f9cc514b0e3178af5ccf1",
+      "seed": 2004,
+      "promptSha256": "b473146ba2570eee44546e3747f7ebb563ec1a47dfbfa6658a3f49aba9ba9bf7",
+      "sourceSha256": "2ff7a68611148d074b6cd18b61ca1abe55e6283e7b878e8c8f64e22364161387",
+      "fit": {
+        "rms": 1.23,
+        "max": 2.76,
+        "reach": 446.8,
+        "coverage": 0.987
+      }
+    },
+    {
+      "path": "npc-jingzhou-phoenix.webp",
+      "teamId": "npc-jingzhou-phoenix",
+      "bytes": 13922,
+      "sha256": "4cae95ceb099ba350fe83bf2e179072b5e45364848b269c72403806ec6ded90d",
+      "seed": 2004,
+      "promptSha256": "9b981a0ed1bb564b274226fb01f2b75bd49c40b8024807f7bd5582572e50472e",
+      "sourceSha256": "d87eb7c625336dbb0bd2fd8d575d18b768e1e967afbf6f3d8786e4d3b9b73cdd",
+      "fit": {
+        "rms": 1.64,
+        "max": 3.08,
+        "reach": 490.7,
+        "coverage": 0.989
+      }
+    },
+    {
+      "path": "npc-hanzhong-shields.webp",
+      "teamId": "npc-hanzhong-shields",
+      "bytes": 15558,
+      "sha256": "ce00fbd22c3a6e23ac91ccebc2428d2cba38570e8d07b99adeae83b8ca8ae15c",
+      "seed": 2003,
+      "promptSha256": "52880dd4c95126f8fe2b74d53cd794cb275a199f30c80797bbc49467ce3dc149",
+      "sourceSha256": "27cce675c650d4e93b030aa26f0daf3d14ead4d3ac177ba28730975908879cab",
+      "fit": {
+        "rms": 1.03,
+        "max": 2.07,
+        "reach": 423.9,
+        "coverage": 0.991
+      }
+    },
+    {
+      "path": "npc-hebei-halberds.webp",
+      "teamId": "npc-hebei-halberds",
+      "bytes": 15810,
+      "sha256": "b55909c332289b2a3d3ae6536d408106ec22aa90ce4e5abcc9629073da040a7d",
+      "seed": 2003,
+      "promptSha256": "7aef8c02e442f38ab3ce70bb4d6e6536b384b8e3caf2d71762ae4562e70434f9",
+      "sourceSha256": "31dd9d997521c1c1d4d256df28f4e48cfe8ecfda73c8a6cde7b9e3b6c600d71c",
+      "fit": {
+        "rms": 0.75,
+        "max": 2.11,
+        "reach": 402.3,
+        "coverage": 0.989
+      }
+    },
+    {
+      "path": "npc-xiliang-wolves.webp",
+      "teamId": "npc-xiliang-wolves",
+      "bytes": 16276,
+      "sha256": "bcbb3a124e2a11cdb43e0bbb90f9b6d537e20988dd5d8fef0edd7be6755b3593",
+      "seed": 2004,
+      "promptSha256": "80225ca91aa11046c66a482ace555ddb8eebd1fd40a1de11ff3a498aae305273",
+      "sourceSha256": "9b7a2cce856c4e350127f58c67beaab18c53c1db7c15b0bd2be81ad1d57e97eb",
+      "fit": {
+        "rms": 1.92,
+        "max": 4.05,
+        "reach": 449.2,
+        "coverage": 0.982
+      }
+    },
+    {
+      "path": "npc-central-command.webp",
+      "teamId": "npc-central-command",
+      "bytes": 15864,
+      "sha256": "285d71aabf7af249c40c186cbd5ece402078720cf712ce913aae84a534af206a",
+      "seed": 2004,
+      "promptSha256": "11c9811770b44e50d47343ec05cbffafb70f073bc8446d47ad0cc86f9569fbd8",
+      "sourceSha256": "4292781815b639bd7142610d6f0909ab1d76040b88c5e0f1ed8c8cdb82d01aaa",
+      "fit": {
+        "rms": 3.01,
+        "max": 6.49,
+        "reach": 478,
+        "coverage": 0.973
+      }
+    }
+  ]
+}

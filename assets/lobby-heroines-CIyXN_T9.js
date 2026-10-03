@@ -1,0 +1,1 @@
+var e=Object.freeze([`유비`,`조조`,`손권`,`여포`]),t=Object.freeze({유비:`함께라면, 마지막 이닝까지.`,조조:`승리의 다음 수를 준비해요.`,손권:`우리의 무대는 이제부터예요.`,여포:`오늘의 주인공은 우리예요.`});function n(n){return e.includes(n)?t[n]:null}export{n,t};
